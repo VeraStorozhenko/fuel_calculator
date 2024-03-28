@@ -26,3 +26,9 @@ def calculate_additional_fuel(mass, current_index, flight_route)
     end
     additional_fuel
 end
+
+# Test the function with provided example
+mass = 28801
+flight_route = [[:launch, 9.807], [:land, 1.62], [:launch, 1.62], [:land, 9.807]]
+total_fuel_required = calculate_fuel(mass, flight_route)
+puts "Total fuel required: #{total_fuel_required}"
