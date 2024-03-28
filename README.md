@@ -1,4 +1,5 @@
-This code resolves the following task
+This code is writng using Ruby 
+and resolves the following task
 
 Backend Test Task                 
 
