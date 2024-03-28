@@ -42,3 +42,10 @@ Ruby - 28801, [[:launch, 9.807], [:land, 1.62], [:launch, 1.62], [:land, 9.807]]
 Elixir - 28801, [{:launch, 9.807}, {:land, 1.62}, {:launch, 1.62}, {:land, 9.807}]
 Python - 28801, [(:launch, 9.807), (:land, 1.62), (:launch, 1.62), (:land, 9.807)]
 
+
+You can test it with that code:
+# Test the function with provided example
+mass = 28801
+flight_route = [[:launch, 9.807], [:land, 1.62], [:launch, 1.62], [:land, 9.807]]
+total_fuel_required = calculate_fuel(mass, flight_route)
+puts "Total fuel required: #{total_fuel_required}"
